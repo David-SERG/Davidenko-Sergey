@@ -1,0 +1,142 @@
+html. body {
+    height: 100%;
+
+}
+body {
+    background: #3399CC;
+    margin: 0;
+    border: 10px solid ;
+}
+h1 {
+    text-align: center;
+   display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    width: 590px;
+    color: white;
+
+}
+ul {
+    margin: 100px auto;
+    box-sizing: border-box;
+    background: lawngreen;
+    width: 80%;
+    font-size:0;
+    padding: 3px;
+
+}
+li {
+    box-sizing: border-box;
+    display: inline-block;
+    color: white;
+    list-style: none;
+    font-size: 16px;
+    width: calc(25% - 6px);
+    border: 3px solid white;
+    height: 60px;
+
+}
+li:hover{
+    opacity: 1;
+}
+.lisbon{
+    padding: 20px 20px 20px ;
+    text-align: center;
+    width: 50%;
+    height: 40%;
+    background: #3399CC;
+    opacity: 0.7;
+    vertical-align: top;
+
+}
+.Paris {
+    padding: 20px 20px 20px;
+    width: 25%;
+    height: 20%;
+    text-align: center;
+    background: #33CCCC;
+    opacity: 0.7;
+}
+
+.Belgrade {
+    padding: 20px 20px 20px;
+    width: 25%;
+    height: 20%;
+    text-align: center;
+    background: #996699;
+    opacity: 0.7;
+}
+.Moscow {
+    padding: 20px 20px 20px;
+    width: 25%;
+    height: 20%;
+    text-align: center;
+    background: #C24747;
+    opacity: 0.7;
+}
+.TelAviv {
+    padding: 20px 20px 20px;
+    width: 25%;
+    height: 20%;
+    text-align: center;
+    background: #E2674A;
+    opacity: 0.7;
+}
+.Cair{
+    padding: 20px 20px 20px;
+    width: 25%;
+    height: 20%;
+    text-align: center;
+    background: #FFCC66;
+    opacity: 0.7;
+}
+.NewYork{
+    padding: 20px 20px 20px;
+    width: 25%;
+    height:20%;
+    text-align: center;
+    background: #99CC99;
+    opacity: 0.7;
+}
+.NewDelhi{
+    padding: 20px 20px 20px;
+    width: 25%;
+    height: 20%;
+    text-align: center;
+    background: #669999;
+    opacity: 0.7;
+}
+.SanFrancisko{
+    padding: 20px 20px 20px;
+    text-align: center;
+    width: 50%;
+    height: 40%;
+    background: #CC6699;
+    opacity: 0.7;
+}
+.Tokyo{
+    padding: 20px 20px 20px;
+    width: 25%;
+    height:20%;
+    text-align: center;
+    background: #339966;
+    opacity: 0.7;
+}
+
+.sydney {
+    padding: 20px 20px 20px;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    background: #666699;
+   opacity: 0.7;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+    width: 590px;
+
+}
