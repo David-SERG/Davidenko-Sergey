@@ -60,5 +60,6 @@ button{
     position: absolute;
     left: 60%;
     top: 50px;
-
+    border: none;
+    background: #F1F1F1;
 }
