@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,700,700i');
+@font-face {
+    font-family: "PlayfairDisplayRegular";
+    src: url("fonts/fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.eot");
+    src: url("fonts/fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.woff") format("woff"),
+    url("fonts/fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    margin: 80px 20px 20px;
+    background: #FEFEFE;
+}
+div {
+    margin: 20px 90px 20px;
+    background: #FFFFFF;
+}
+h1 {
+    font-size: 45px;
+    font-family: PlayfairDisplayRegular, Georgia,cursive ;
+}
+p {
+    font-size: 20px;
+    font-family: lato, Arial, cursive;
+    line-height: 1.5;
+}
+.leter::first-letter {
+    font-family: PlayfairDisplayRegular, Georgia, cursive;
+    font-size: 100px;
+    line-height: 90px;
+    float: left;
+}
+span {
+    font-family: lato, Arial, cursive;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 27px;
+    white-space: pre;
+}
+.dis {
+    font-family: lato, Arial, cursive;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    padding: 7px;
+    color: #EAA258;
+    width: 20%;
+    text-align: center;
+}
