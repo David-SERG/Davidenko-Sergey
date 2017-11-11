@@ -1,0 +1,202 @@
+
+@font-face {
+    font-family: 'big_johnregular';
+    src: url('../fonts/bigjohn-webfont.woff2') format('woff2'),
+    url('../fonts/bigjohn-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'slim_joeregular';
+    src: url('../fonts/slimjoe-webfont.woff2') format('woff2'),
+    url('../fonts/slimjoe-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import  url(  'https://fonts.googleapis.com/css?family=Lato:300,400,700,900,900i'  )  ;
+
+body {
+    padding: 0;
+    margin: 0;
+}
+.clear{
+    content:'';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+div {
+    box-sizing: border-box;
+}
+header {
+    background: url("../image/Background.jpg") no-repeat center top / cover;
+    padding-bottom: 180px;
+
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.logo {
+margin-top: 32px;
+    float: left;
+}
+nav {
+    margin-top: 80px;
+    float: right;
+}
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 112px;
+    font-size: 16px;
+    font-family: lato900, Arial, cursive, sans-serif;
+}
+.menu li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.titles_first {
+    font-size: 30px;
+    font-family:slim_joeregular, Arial, cursive,sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 20px;
+
+}
+h1 {
+    font-size: 46px;
+    font-family: big_johnregular, Arial, cursive,sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 199px ;
+
+}
+.button {
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#48bf72;
+    text-align: center;
+    border: 2px #48bf72 solid;
+    border-radius: 3px;
+    display: block;
+    width: 135px;
+    padding: 13px;
+    margin: 50px auto;
+    font-family: lato900, Arial, cursive;
+    font-weight: bold;
+
+
+}
+
+
+
+.contain {
+    width: 653px;
+    margin: 0 auto;
+
+}
+
+.titles_tytle {
+    float: right;
+    margin-top: 52px;
+
+}
+.tytle{
+    padding: 0;
+    display: block;
+    background: red;
+}
+.tytle li{
+    list-style-type: none;
+    display: inline-block;
+    float:left;
+    border: 1px;
+    background: #c2c2c2;
+    margin: 4px;
+    padding: 4px;
+    margin-left: 30px;
+}
+
+
+.container-foto{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+.container-foto>div:hover{
+    opacity:.5;
+
+}
+.item1 {
+    float:left;
+    margin-top: 86px;
+    opacity: 1;
+}
+.item2{
+    float:right;
+    margin-top: 86px;
+    opacity: 1;
+}
+.item3{
+    float: left;
+    margin-top:  42px;
+    opacity: 1;
+
+}
+.item4{
+    float: right;
+   margin-top: 42px;
+    opacity: 1;
+}
+.man{
+    background: url("../image/men-computer.png") no-repeat center top/cover;
+}
+.container_man {
+    width: 1140px;
+   height: 500px;
+    display: block;
+    margin-top: 1061px;
+}
+.text {
+    float: right;
+    text-align:left;
+    width: 417px;
+    height: 277px;
+    margin-top: 60px;
+    color: #FFFFFF;
+    font-family: lato, Arial, cursive;
+}
+h2 {
+    font-weight: 900;
+
+}
+h3 {
+font-weight: 700;
+}
+p {
+    font-weight: 300;
+    padding-top: 39px;
+}
+.button_me{
+    text-decoration: none;
+    border: 2px #3c4955 solid;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+    width: 152px;
+    height: 22px;
+    margin-top: 44px;
+    color: #3c4955;
+    font-size: 14px;
+    font-family: lato, Arial, cursive;
+    font-weight: bold;
+    padding: 15px;
+
+}

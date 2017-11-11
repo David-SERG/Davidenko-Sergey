@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+}
+/*main, section {*/
+    /*margin: 50px;*/
+    /*position: relative;*/
+    /*display: inline-block;*/
+/*}*/
+/*div {*/
+    /*width: 300px;*/
+    /*height: 300px;*/
+    /*margin: 20px;*/
+    /*background: #333333;*/
+    /*display: inline-block;*/
+/*}*/
+/*div:nth-child(2){*/
+    /*background: red;*/
+    /*position: absolute;*/
+    /*margin: 0;*/
+/*}*/
+/*div:nth-child(5){*/
+    /*background: #0000ff;*/
+    /*position: relative;*/
+/*}*/
+/*div:nth-child(8){*/
+    /*background: #00ff00;*/
+    /*position: fixed;*/
+    /*top:20px;*/
+    /*right: 30px;*/
+    /*margin: 0;*/
+    /*left: 100px;*/
+    /*z-index: 1;*/
+/*}*/
+
+div {
+    font-size: 30px;
+}
+.bground{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+}
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.modal {
+    position:absolute;
+    width: 50%;
+    height: 50%;
+    background: #FFFFFF;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.modal-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+.close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.popup{
+    position:fixed ;
+    width: 50%;
+    height: 50%;
+    background: #FFFFFF;
+    left: 50%;
+    top: 25%;
+    margin: 0 -25%;
+}
+
+body {
+    position: relative;
+}
+
+.board{
+    background: #FFFFFF;
+    width: 70vw;
+    height: 70vw;
+    margin: 50px auto;
+    border: 1px solid black;
+    position: relative;
+
+}
+ .board:before {
+     content: "";
+     height: 0;
+     padding-top: 100%;
+
+ }
+ .board-cell{
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+ }
+.row{
+    height: 12.5%;
+    font-size: 0;
+}
+.cell{
+    width: 12.5%;
+    height: 100%;
+    background: #333333;
+    margin-right: 12.5%;
+    display: inline-block;
+}
+ .row:nth-child(even) .cell {
+     margin-right: 0;
+     margin-left: 12.5%;
+
+
+}
+.cell:before{
+    content: '';
+    display: block;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    border-radius: 80%;
+    background: #f00;
+    position: absolute;
+}
+.row:nth-child(even) .cell:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+

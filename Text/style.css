@@ -30,19 +30,17 @@ p {
     font-size: 100px;
     line-height: 90px;
     float: left;
+    padding: 0px 15px 0px 0px;
 }
 span {
-    font-family: lato, Arial, cursive;
-    font-weight: 300;
-    font-style: italic;
-    font-size: 27px;
+    font: 300 italic normal 27px/1.2 Lato Arial sans-serif;
     white-space: pre;
 }
+
 .dis {
     font-family: lato, Arial, cursive;
     font-weight: 700;
-    border-style: solid;
-    border-width: 3px 3px 3px 3px;
+    border: 3px solid #EAA258;
     padding: 7px;
     color: #EAA258;
     width: 20%;
