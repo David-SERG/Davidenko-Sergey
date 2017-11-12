@@ -1,0 +1,104 @@
+
+@font-face {
+    font-family: 'museo_sans_cyrl100';
+    src: url('font/museosanscyrl-webfont.woff2') format('woff2'),
+    url('font/museosanscyrl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background: url("img/bg.png") no-repeat;
+    background-size: cover;
+    font-family: "museo_sans_cyrl100", Arial,sans-serif;
+}
+.ram{
+    width: 684px;
+    height: 390px;
+    border: 1px solid #111a28;
+    border-radius: 20px;
+    background: #111a28;
+    margin: 200px 0 0 400px;
+}
+header{
+   margin: 0 auto;
+
+}
+.logo{
+    float: left;
+    margin: 15px 0 0 25px;
+}
+section {
+    margin: 0;
+}
+.section-left{
+    margin: 0;
+ width: 415px;
+    height: 340px;
+}
+.boots{
+    float: left;
+    margin: 112px 0 0 -50px;
+}
+.tochka {
+float: left;
+    margin: 69px 0 0 179px;
+}
+.section-rigt{
+    margin: 0;
+    width: 269px;
+
+}
+h1{
+    font:  24px/1.08 "museo_sans_cyrl100"  ;
+    color: #FFFFFF;
+    float: right;
+    margin: -200px -326px 0 0;
+
+
+}
+h2 {
+    font: 14px/1.85 "museo_sans_cyrl100";
+    color: #49505a;
+    float: right;
+    margin: -145px -343px 0 0;
+}
+
+.zvezda{
+    margin: -168px 0 0 446px;
+}
+.knopka{
+    margin: 11px 0 0 442px;
+
+}
+p{
+
+    border: 1px solid #4f5560;
+    width: 68px;
+    height: 31px;
+    color: #adafb3;
+    margin: 10px 2px 0 2px;
+    text-align: center;
+    padding: 6px 0 0 0;
+    box-sizing: border-box;
+    font: 14px "museo_sans_cyrl100";
+    display: inline-block;
+}
+p:hover{
+    background: #202835;
+}
+button{
+    border: 1px solid #4f5560;
+    width: 184px;
+    height: 40px;
+    color: #adafb3;
+    background: #111a28;
+    margin-top: 31px;
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+button:hover{
+    background: #202835;
+}
