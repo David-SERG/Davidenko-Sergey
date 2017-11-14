@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>БЭМ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <header class="header">
+<!--a.header__logo+(ul.menu>li.menu__item*4>a[href=#])^^+a[href=#].header__menu-btn-->
+     <a href="" class="header__logo">
+         <img src="img/logo.png" alt="logo">
+     </a>
+     <a href="#" class="header__menu-btn"></a>
+
+     <ul class="menu">
+         <li class="menu__item">
+             <a href="#">Lifestyle</a>
+         </li>
+         <li class="menu__item">
+             <a href="#">Running</a>
+         </li>
+         <li class="menu__item">
+             <a href="#">Football</a>
+         </li>
+         <li class="menu__item">
+             <a href="#">Skateboarding</a>
+         </li>
+     </ul>
+ </header>
+<section class="product">
+    <div class="product-content">
+        <div class="product-slider">
+        <div class="product-slider__main-img">
+            <img src="img/kross.jpg" alt="boots">
+        </div>
+        <div class="product-slider-thumbnails">
+            <a href="#" class="product-slider__img">
+                <img src="img/er.png" alt="nike">
+            </a>
+            <a href="#" class="product-slider__img">
+                <img src="img/img.png" alt="nike">
+            </a>
+            <a href="#" class="product-slider__img">
+                <img src="img/imgg.png" alt="nike">
+            </a>
+        </div>
+    </div>
+    <div class="product-info">
+        <a href="#" class="product-info__close">
+        </a>
+        <h2 class="product-info__label product-info__label--new">New</h2>
+        <h1 class="product-name">THE
+            <span class="product-name__color--blue">
+            RUNNING
+            </span>
+            <br>
+
+            HAS JUST BEGUN
+        </h1>
+        <div class="product-rating">Huarache
+            <ul class="product-rating-stars">
+                <li class="product-rating__star product-rating__star--active">
+                    <a href="#"></a>
+                </li>
+                <li class="product-rating__star product-rating__star--active">
+                    <a href="#"></a>
+                </li>
+                <li class="product-rating__star product-rating__star--active">
+                    <a href="#"></a>
+                </li>
+                <li class="product-rating__star product-rating__star--active">
+                    <a href="#"></a>
+                </li>
+                <li class="product-rating__star">
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</section>
+</body>
+</html>

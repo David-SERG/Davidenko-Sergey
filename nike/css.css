@@ -45,6 +45,7 @@ section {
 float: left;
     margin: 69px 0 0 179px;
 }
+
 .section-rigt{
     margin: 0;
     width: 269px;
@@ -67,23 +68,41 @@ h2 {
 
 .zvezda{
     margin: -168px 0 0 446px;
-}
-.knopka{
-    margin: 11px 0 0 442px;
+
 
 }
-p{
+a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #FFFFFF;
+}
 
+
+a:focus{
+    color: yellow;
+}
+
+a:hover{
+    color: yellow;
+}
+
+
+div .knopka{
+    float: left;
+    margin: -266px 92px 0 433px;
+}
+select{
     border: 1px solid #4f5560;
     width: 68px;
     height: 31px;
     color: #adafb3;
-    margin: 10px 2px 0 2px;
-    text-align: center;
-    padding: 6px 0 0 0;
-    box-sizing: border-box;
+    background: #111a28 ;
+    margin: 116px -7px 0 10px;
+    float: left;
+}
+option{
+    background: #4f5560;
     font: 14px "museo_sans_cyrl100";
-    display: inline-block;
 }
 p:hover{
     background: #202835;
@@ -94,7 +113,7 @@ button{
     height: 40px;
     color: #adafb3;
     background: #111a28;
-    margin-top: 31px;
+    margin: 31px 0 0 9px;
     display: inline-block;
     box-sizing: border-box;
     

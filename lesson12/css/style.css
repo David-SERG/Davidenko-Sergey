@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400');
+html{
+    height: 100%;
+}
+html body{
+    min-height: 100%;
+}
+body{
+    margin: 0;
+    background: url("../img/bgjpeg.jpg") no-repeat;
+    background-size: cover;
+
+}
+header{
+    width: 750px;
+    margin: 26px auto;
+}
+/*body:before{*/
+    /*content: "";*/
+    /*display: inline-block;*/
+.header{
+    width: 750px;
+    margin: 0 auto;
+    padding-top: 26px;
+}
+.menu, .header__menu-btn {
+    float: right;
+
+}
+.header__menu-btn{
+    display: inline-block;
+    height: 13px;
+    width: 22px;
+    background: url("../img/btn_menu.png") ;
+}
+.menu{
+    margin: -2px 0 0 50px;
+    padding: 0;
+    font: 300 12px "Roboto", sans-serif;
+
+}
+.menu__item{
+    display: inline-block;
+    margin-right: 50px;
+}
+.menu__item a{
+   color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 150%;
+}
+.menu__item:hover{
+    border-bottom: 1px solid #FFFFFF;
+}
+.product{
+    height: 430px;
+    width: 750px;
+    background: #FFFFFF;
+    margin: 60px auto 0;
+    position: relative;
+}
+.product-content{
+    position: relative;
+    height: 100%;
+    z-index: 1;
+
+}
+
+.product:before,.product:after{
+    content: "";
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255,.5);
+}
+.product:before{
+    width: 110%;
+    height: 90%;
+    top: 5%;
+    left: -5%;
+
+}
+.product:after{
+    width: 120%;
+    height: 80%;
+    top: 10%;
+    left: -10%;
+
+
+}
+.product-slider{
+    width: 502px;
+    background: #f4f4f4;
+    height: 100%;
+    float: left;
+}
+.product-slider-thumbnails{
+    text-align: center;
+}
+.product-slider__img{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+.product-info{
+    position: relative;
+    float: right;
+    width: 248px;
+    padding: 45px 32px;
+    box-sizing: border-box;
+    color: black;
+}
+.product-info__close{
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background: url("../img/btn_close.png");
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+.product-info__label {
+    padding: 5px;
+    margin: 0;
+    display: inline-block;
+    font: 14px "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+.product-info__label--new{
+    background: #ffa60d;
+    color: #FFFFFF;
+
+
+}
+.product-name{
+    font: 24px 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+.product-name__color--blue{
+    color: #5e4fff;
+}
+.product-rating{
+    font: 12px 'Roboto Condensed', sans-serif;
+    margin:15px 0 0 0;
+
+
+
+}
+.product-rating-stars{
+    margin: 0 0 0 10px;
+    padding: 0;
+    display: inline-block;
+
+}
+.product-rating__star{
+    display: inline-block;
+}
+.product-rating__star a{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background: url("../img/zvezda.png");
+}
+.product-rating__star--active a{
+    background: url("../img/Formazvezda.png");
+}
