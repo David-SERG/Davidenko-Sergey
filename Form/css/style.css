@@ -1,0 +1,94 @@
+html {
+    height:100%;
+}
+html,body{
+    min-height: 100%;
+    margin: 0;
+}
+body {
+    background: url("../img/main.jpg") no-repeat;
+    background-size: cover;
+    font-family: 'Arial','sans-serif';
+}
+header:before, header:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.ramka{
+    width: 461px;
+    height: 471px;
+    border: 1px solid #f0f0f0;
+    background: #ffffff;
+    border-radius: 8px;
+    margin: 60px auto;
+ }
+header{
+    margin: 0;
+    padding: 0;
+    width: 412px;
+    height: 91px;
+
+}
+img{
+    float: left;
+    margin: 31px 0 0 31px;
+}
+h1 {
+    margin: 0;
+    display: inline-block;
+    padding: 31px 0 0  12px;
+    font: 700 24px 'Arial', 'sans-serif';
+}
+.text{
+    width: 412px;
+    height: 59px;
+    margin-top: -20px;
+
+}
+p,a{
+    margin: 0;
+    display: inline-block;
+    padding: 11px 0 0 31px;
+    font-size: 13px;
+    color: #7a7b7f;
+
+}
+a{
+    text-decoration: none;
+    color: red;
+    padding: 11px 0 0 0;
+}
+form{
+     margin:0;
+}
+input{
+    background: #f0f0f0;
+    width: 180px;
+    height: 39px;
+    margin: 40px 0 0 30px;
+    padding: 0 0 0 10px;
+    border: none;
+    font: 14px 'Arial','sans-serif';
+    color: #8d8e91;
+}
+input:nth-child(2){
+    margin: 0 0 0 15px;
+}
+input:nth-child(n+3){
+    width: 389px;
+    margin-top: 16px;
+}
+button{
+    width: 401px;
+    height: 52px;
+    background: #ea355a;
+    box-sizing: border-box;
+    border: 1px solid #ea355a;
+    border-radius: 4px;
+    font: 700 18px 'Arial','sans-serif';
+    color: #FFFFFF;
+    margin: 16px 0 0 30px;
+    box-shadow: 0 3px #bd1962;
+}
