@@ -1,0 +1,46 @@
+* {
+    outline: none;
+}
+input, textarea{
+    padding: 10px;
+    font: 900 16px Arial,sans-serif;
+    border: 1px solid gray;
+}
+input:focus, textarea:focus{
+    border-color:  darkblue;
+}
+input:hover, textarea:hover{
+    border-color:  darkgreen;
+}
+textarea{
+    resize: none;
+    overflow: hidden; /*если надо убрать полосу прокрутки */
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: pink;
+
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: pink;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: pink;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: pink;
+}
+ input[type=checkbox]{
+display: none;
+}
+ .styled_chb:before{
+     content: "";
+     display: inline-block;
+     width: 15px;
+     height: 15px;
+     background: #cccccc;
+     vertical-align: middle;
+ }
+input[type=checkbox]:checked + label:before {
+    background: #333333;
+}
+ 

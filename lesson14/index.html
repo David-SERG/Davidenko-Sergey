@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<form action="/" method="get">
+    <label for="name">Your name:</label>
+    <input type="text" id="name" name="your_name" tabindex="1">
+
+    <br>
+    <br>
+    <br>
+    <label>Your surname:
+        <input type="text" name="surname" tabindex="2"></label>
+    <br>
+    <br>
+
+    <input type="email" minlength="8" maxlength="10" name="email" placeholder="email" value="email.gmail.com" tabindex="4">
+    <br>
+    <br>
+    <br>
+    <input type="password" placeholder="your password">
+    <br>
+    <br>
+    <br>
+    <textarea name="comment" id="" cols="30" rows="10" placeholder="enter your comment" tabindex="3"></textarea>
+    <br>
+    <br>
+    <input type="checkbox" name="chb1" id="chb-1">
+    <label for="chb-1" class="styled_chb">checkbox text 1</label>
+    <input type="checkbox" name="chb1" id="chb-2">
+    <label for="chb-2" class="styled_chb" checked="checked">checkbox text 2</label>
+    <input type="checkbox" name="chb1" id="chb-3">
+    <label for="chb-3" class="styled_chb">checkbox text 3</label>
+    <br>
+    <br>
+    <br>
+    <select name="select" id="select">
+        <option value="1">BMV</option>
+        <option value="2" selected="selected">Audi</option>
+        <option value="3">ert</option>
+    </select>
+    <label>
+        <input type="radio" name="rad-1">
+        label radio 1
+    </label>
+    <label>
+        <input type="radio" name="rad-1" checked="checked">
+        label radio 2
+    </label>
+
+    <input type="submit" value="отправить наши данные" tabindex="10">
+
+</form>
+
+</body>
+</html>

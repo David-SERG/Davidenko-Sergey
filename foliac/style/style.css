@@ -35,7 +35,7 @@ header {
 
 }
 .container{
-    width: 1140px;
+    width: 100%;
     margin: 0 auto;
 }
 .logo {
@@ -96,34 +96,48 @@ h1 {
 }
 
 
-
-.contain {
-    width: 653px;
-    margin: 0 auto;
-
-}
-
-.titles_tytle {
-    float: right;
-    margin-top: 52px;
-
-}
-.tytle{
+.contain{
+    width: 100%;
+    height: 136px;
+    margin: 0 0 0 550px;
     padding: 0;
-    display: block;
-    background: red;
 }
-.tytle li{
-    list-style-type: none;
-    display: inline-block;
-    float:left;
-    border: 1px;
-    background: #c2c2c2;
-    margin: 4px;
-    padding: 4px;
-    margin-left: 30px;
+ul {
+    margin: 0;
+    padding: 0;
 }
 
+.contain li{
+    float: left;
+    list-style-type: none;
+    border: 1px;
+    background: #eaeaea;
+    margin: 55px 278px 20px -229px;
+    padding: 10px;
+    color: #5f6973;
+    font: 900 16px Lato, sans-serif;
+
+}
+.contain:before, .contain:after{
+    content: '';
+    display: block;
+}
+.contain:after{
+    clear: both;
+}
+.contain ul li:hover{
+    background: #48bf72;
+}
+.contain ul li a{
+    text-decoration: none;
+    color: #5f6973;
+}
+
+.knopka:hover
+{
+    color:  #FFFFFF;
+    text-decoration: none;
+}
 
 .container-foto{
     width: 1140px;
@@ -199,4 +213,90 @@ p {
     font-weight: bold;
     padding: 15px;
 
+}
+h4 {
+    text-align: center;
+    font: 700 26px bigjohn, sans-serif;
+    color:#48bf72;
+    margin: 44px 0 0 0;
+    text-transform: uppercase;
+}
+
+form{
+    height: 300px;
+    display: inline-block;
+}
+
+label{
+    position: relative;
+    display: inline-block;
+    margin: 44px -371px -8px 448px;
+
+}
+label:before{
+    left: -52px;
+    top: 0;
+    height: 100%;
+    width: 52px;
+    background-color: #3c4955;
+    margin: 0;
+
+}
+label:before, label:after{
+    content: '';
+    position: absolute;
+    display: block;
+}
+.fname:before{
+    background: #3c4955 url("../image/user.png") 0 0 no-repeat;
+    background-size: 50%;
+   
+
+}
+.email:before{
+    background-image: url("../image/mail.png");
+
+    /*картинку выровнять с помощью backgraund-position*/
+}
+label:after{
+    border: 6px solid transparent;
+    border-left-color: #3c4955;
+    top:23px;
+    left: 0;
+
+}
+[type]{
+    width: 286px;
+    height: 52px;
+    margin: 0;
+    padding: 0 0 0 10px;
+
+}
+textarea{
+    width: 665px;
+    height: 230px;
+    padding: 19px 0 0 14px;
+    resize: none;
+}
+button{
+    width: 737px;
+    height: 52px;
+    margin: 31px 0 0 392px;
+    background: #48bf72;
+    color: #FFFFFF;
+    font: 700 14px Lato, sans-serif;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background: #3c4955;
+    margin-top: 56px;
+}
+.footer{
+    width: 1140px;
+    display: block;
+    margin: 0 0 0 390px;
 }

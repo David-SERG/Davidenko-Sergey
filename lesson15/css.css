@@ -1,0 +1,66 @@
+[class^='row-']:after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.col {
+    float: left;
+    min-height: 50px;
+    box-sizing: border-box;
+    padding: 15px;
+    word-wrap: break-word;
+}
+
+.row-2 .col{
+    width: 50%;
+}
+.row-3 .col{
+    width: 33.33%;
+}
+
+.row-12 .col{
+    width: 8.33%;
+}
+.col > [class^='row-']{
+    margin: 0 -15px;
+}
+.row-12 .col-1{
+    width: 8.33%;
+}
+.row-12 .col-2{
+    width: 16.67%;
+}
+.row-12 .col-3{
+    width: 25%;
+}
+.row-12 .col-4{
+    width: 33.33%;
+}
+.row-12 .col-5{
+    width: 41.67%;
+}
+.row-12 .col-6{
+    width: 50%;
+}
+.row-12 .col-7{
+    width: 58.33%;
+}
+.row-12 .col-8{
+    width: 66.67%;
+}
+.row-12 .col-9{
+    width: 75%;
+}
+.row-12 .col-10{
+    width: 83.33%;
+}
+.row-12 .col-11{
+     width: 91.66%;
+ }
+.row-12 .col-12{
+    width: 100%;
+}
+
+
+

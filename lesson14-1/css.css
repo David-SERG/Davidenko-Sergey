@@ -1,0 +1,89 @@
+[class^='row-']{
+    font-size: 0;
+}
+.col{
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    vertical-align: top;
+
+}
+.row-8 .col{
+    width: 12.5%;
+}
+.row-12 .col{
+    width: 8.33%;
+}
+.row-3 .col{
+    width: 33.33%;
+}
+
+
+
+
+[class^='fl-row-']:before,
+[class^='fl-row-']:after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.fl-col{
+    float: left;
+    padding: 10%;
+    box-sizing: border-box;
+}
+.fl-row-5 .fl-col{
+    width: 20%;
+}
+
+
+
+
+
+form{
+    height: 300px;
+    display: block;
+}
+
+label{
+    position: relative;
+    display: block;
+}
+label:before{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 30px;
+    background-color: #3c4955;
+}
+label:before, label:after{
+    content: '';
+    position: absolute;
+    display: block;
+}
+.name:before{
+    /*background-image: url("");*/
+}
+.name:before{
+    /*background-image: url("");*/
+    /*картинку выровнять с помощью backgraund-position*/
+}
+label:after{
+    border: 6px solid transparent;
+    border-left-color: #3c4955;
+    top:5px;
+    left: 30px;
+}
+
+
+.border{
+    border: 50px solid;
+    border-top-color: yellow;
+    border-right-color: red;
+    border-bottom-color: blue;
+    border-left-color: purple;
+    width: 0;
+}

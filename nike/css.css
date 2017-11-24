@@ -78,7 +78,7 @@ a{
 }
 
 
-a:focus{
+a:focus ~ a{
     color: yellow;
 }
 
