@@ -87,7 +87,7 @@ p{
     position: absolute;
     left: 50%;
     top: 90%;
-    transform: translateX(-50%);
+    transform: translateY(50%);
 }
 
 
