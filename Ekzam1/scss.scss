@@ -254,7 +254,6 @@ nav {
     img {
       padding-bottom: 55px;
 
-
     }
     span {
       margin-left: -123px;
@@ -262,175 +261,185 @@ nav {
       font: 400 36px/.72 $fontAleo;
       color: $color;
 
-
-
     }
   }
-  .section3 {
-    width: 100%;
-    min-height: 700px;
-    background: url("img/bg3.png") no-repeat;
-    position: relative;
-    .text2 {
-      @include text;
-      top: 229px;
-      left: 111px;
+}
 
-      h3 {
-        @include font;
+.section3 {
+  width: 100%;
+  min-height: 700px;
+  background: url("img/bg3.png") no-repeat;
+  position: relative;
+  .text2 {
+    @include text;
+    top: 229px;
+    left: 111px;
 
-      }
-      h2 {
-        margin: 27px 0 27px 0;
-        text-transform: uppercase;
-        @include font;
-
-      }
-      p {
-        font: 400 16px/1.6 $fontJosefin;
-        margin-bottom: 70px;
-      }
-      a {
-        @include button;
-
-      }
-    }
-  }
-  .section3:after, .section3:before {
-    content: '';
-    clear: both;
-    display: block;
-  }
-  .section4:after, .section4:before {
-    content: '';
-    clear: both;
-    display: block;
-  }
-  .section4 {
-    width: 100%;
-    min-height: 700px;
-    background: url("img/bg5.png") no-repeat;
-    position: relative;
-    .text2 {
-      @include text;
-      top: 229px;
-      left: 714px;
-
-      h3 {
-        @include font;
-
-      }
-      h2 {
-        margin: 27px 0 27px 0;
-        text-transform: uppercase;
-        @include font;
-
-      }
-      p {
-        font: 400 16px/1.6 $fontJosefin;
-        margin-bottom: 70px;
-      }
-      a {
-        @include button;
-
-      }
-    }
-  }
-
-  .section5 {
-    width: 100%;
-    min-height: 735px;
-    background: url("img/bg6.png");
-    position: relative;
-    h2 {
-      text-align: center;
-      font: 36px/.72 $fontAleo;
-      color: $color;
-      padding-top: 120px;
-      margin: 0 0 95px 0;
-    }
-    .content {
-      height: 290px;
-      float: left;
-      margin-left: 70px;
-      .boy {
-        background: url("img/boy.png") no-repeat;
-        width: 445px;
-        height: 289px;
-        float: left;
-        display: inline-block;
-      }
-      &-boy {
-        width: 653px;
-        padding: 47px 58px;
-        background: #333333;
-        display: inline-block;
-        float: left;
-        h3 {
-          font: 400 20px/1.3 $fontJosefin;
-          color: $color;
-          margin-bottom: 27px;
-        }
-        p {
-          font: 400 16px/1.6 $fontJosefin;
-          color: $color;
-
-        }
-        .fa-quote-left {
-          color: #0813FD;
-        }
-
-      }
-    }
-  }
-  .strelki {
-    width: 181px;
-    height: 67px;
-    display: inline-block;
-    position: absolute;
-    top: 560px;
-    right: 62px;
-
-    .strelka1 {
-      border: 1px solid $color;
-      display: inline-block;
-      padding: 14px 37px;
-
-    }
-  }
-  footer {
-    width: 100%;
-    min-height: 268px;
-    h2 {
-      font: 700 24px/1.08 $fontJosefin;
-      color: $color;
-      text-align: center;
-      margin: 116px 0 10px 0;
-      text-transform: uppercase;
-      letter-spacing: .14em;
-    }
     h3 {
-      font: 400 16px/1.62 $fontJosefin;
-      letter-spacing: .1em;
-      text-align: center;
-      color: $color;
-      margin: 0;
+      @include font;
+
     }
-    .seti {
+    h2 {
+      margin: 27px 0 27px 0;
+      text-transform: uppercase;
+      @include font;
+
+    }
+    p {
+      font: 400 16px/1.6 $fontJosefin;
+      margin-bottom: 70px;
+    }
+    a {
+      @include button;
+
+    }
+  }
+}
+
+.section3:after, .section3:before {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.section4:after, .section4:before {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.section4 {
+  width: 100%;
+  min-height: 700px;
+  background: url("img/bg5.png") no-repeat;
+  position: relative;
+  .text2 {
+    @include text;
+    top: 229px;
+    left: 714px;
+
+    h3 {
+      @include font;
+
+    }
+    h2 {
+      margin: 27px 0 27px 0;
+      text-transform: uppercase;
+      @include font;
+
+    }
+    p {
+      font: 400 16px/1.6 $fontJosefin;
+      margin-bottom: 70px;
+    }
+    a {
+      @include button;
+
+    }
+  }
+}
+
+.section5 {
+  width: 100%;
+  min-height: 735px;
+  background: url("img/bg6.png");
+  position: relative;
+  h2 {
+    text-align: center;
+    font: 36px/.72 $fontAleo;
+    color: $color;
+    padding-top: 120px;
+    margin: 0 0 95px 0;
+  }
+  .content {
+    height: 290px;
+    float: left;
+    margin-left: 70px;
+    .boy {
+      background: url("img/boy.png") no-repeat;
+      width: 445px;
+      height: 289px;
+      float: left;
       display: inline-block;
-      width: 300px;
-      height: 50px;
-      margin-left: 562px;
-      padding-top: 23px;
-      a{
-        margin-left: 20px;
+    }
+    &-boy {
+      width: 653px;
+      padding: 47px 58px;
+      background: #333333;
+      display: inline-block;
+      float: left;
+      h3 {
+        font: 400 20px/1.3 $fontJosefin;
+        color: $color;
+        margin-bottom: 27px;
+      }
+      p {
+        font: 400 16px/1.6 $fontJosefin;
+        color: $color;
 
       }
 
+      .fa-quote-left:before {
+        content: "";
+        color: #0813FD;
+      }
+
     }
+  }
+}
+
+.strelki {
+  width: 181px;
+  height: 67px;
+  display: inline-block;
+  position: absolute;
+  top: 560px;
+  right: 62px;
+
+  .strelka1 {
+    border: 1px solid $color;
+    display: inline-block;
+    padding: 14px 37px;
 
   }
 }
+
+footer {
+  width: 100%;
+  min-height: 268px;
+  background: #232323;
+  h2 {
+    font: 700 24px/1.08 $fontJosefin;
+    color: $color;
+    text-align: center;
+    padding-top: 116px;
+    margin-top: 0;
+    margin-bottom:  10px;
+    text-transform: uppercase;
+    letter-spacing: .14em;
+  }
+  h3 {
+    font: 400 16px/1.62 $fontJosefin;
+    letter-spacing: .1em;
+    text-align: center;
+    color: $color;
+    margin: 0;
+  }
+  .seti {
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    margin-left: 562px;
+    padding-top: 23px;
+    a {
+      margin-left: 20px;
+
+    }
+
+  }
+
+}
+
 
 
 
