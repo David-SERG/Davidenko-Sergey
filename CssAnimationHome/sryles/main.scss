@@ -1,0 +1,128 @@
+@mixin suit {
+  background: #fcfcff;
+  line-height: 270px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 80px;
+  transform: rotateY(180deg);
+  position: relative;
+
+  .value1 {
+    position: absolute;
+    top: -97px;
+    left: 10px;
+    display: block;
+
+  }
+  .value2 {
+    position: absolute;
+    top: 90px;
+    right: 10px;
+    display: block;
+  }
+
+}
+
+@mixin joker {
+
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+
+  &:hover {
+    transform: rotate(720deg);
+
+  }
+}
+
+@keyframes rect-transform {
+  50% {
+    background: url("../image/desk3.jpg");
+  }
+  100% {
+    background: url("../image/desk4.jpg");
+  }
+  80% {
+    background: url("../image/desk2.jpg");
+  }
+  100% {
+    background: url("../image/desk5.jpg");
+  }
+}
+
+body {
+  background: url("../image/desk1.jpg") no-repeat;
+  background-size: cover;
+  transform-style: preserve-3d; //дочерние элементы должны отображаться в 3D-пространстве
+  transition: all 1s ease-in-out;
+  //animation: rect-transform 11s linear infinite;
+  //animation: rect-transform 3s steps(11, end) 3s infinite alternate;
+  //animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-direction;
+  &:hover {
+    background: url("../image/desk4.jpg");
+    transform: rotateY(10deg);
+  }
+
+  .cards-container {
+    cursor: pointer; //устанавливает вид курсора
+    width: 100%;
+    //perspective: 600px;//перспектива
+    height: 100%;
+    margin: 0 0 0 5%;
+
+    .cards {
+      transform-style: preserve-3d; //дочерние элементы должны отображаться в 3D-пространстве
+      transition: all 1s ease-in-out;
+      height: 270px;
+      width: 180px;
+      display: inline-block;
+      margin: 10px;
+      &:hover {
+        transform: rotateY(180deg);
+      }
+
+      .front {
+        backface-visibility: hidden;//Определяет, показывать обратную сторону элемента или нет
+        background: url("../image/shirt.jpg");
+        background-size: cover;
+        border: 1px solid brown;
+        border-radius: 10px;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+
+      }
+
+      .back1 {
+        color: #cc0808;
+        @include suit;
+        position: relative;
+
+      }
+      img {
+        @include joker;
+      }
+
+    }
+    .back2 {
+      color: #000000;
+      @include suit;
+      position: relative;
+
+    }
+    img {
+      @include joker;
+    }
+  }
+
+}
+
+
+
+
+
