@@ -39,6 +39,11 @@ body {
         position: absolute;
         overflow: hidden;
         width: 100%; }
+      body .cards-container .cards.value3 {
+        margin-top: 300px;
+        display: inline-block;
+        width: 500px;
+        height: 500px; }
       body .cards-container .cards .back1 {
         color: #cc0808;
         background: #fcfcff;

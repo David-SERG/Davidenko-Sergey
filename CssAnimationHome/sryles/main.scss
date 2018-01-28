@@ -74,6 +74,7 @@ body {
     height: 100%;
     margin: 0 0 0 5%;
 
+
     .cards {
       transform-style: preserve-3d; //дочерние элементы должны отображаться в 3D-пространстве
       transition: all 1s ease-in-out;
@@ -81,12 +82,13 @@ body {
       width: 180px;
       display: inline-block;
       margin: 10px;
+
       &:hover {
         transform: rotateY(180deg);
       }
 
       .front {
-        backface-visibility: hidden;//Определяет, показывать обратную сторону элемента или нет
+        backface-visibility: hidden;
         background: url("../image/shirt.jpg");
         background-size: cover;
         border: 1px solid brown;
@@ -97,7 +99,13 @@ body {
         width: 100%;
 
       }
+      &.value3{
+        margin-top: 300px;
+        display: inline-block;
+        width: 500px;
+        height: 500px;
 
+      }
       .back1 {
         color: #cc0808;
         @include suit;
