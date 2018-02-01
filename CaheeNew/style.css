@@ -179,8 +179,17 @@ h1 {
 }
 
 #section2 > h1 {
-    margin: -261px 0 0 794px;
+    margin: -20% 0 0 50%;
 }
+@media all and (max-width: 1023px) {
+    #section2 > h1 {
+        font-size: 60px; } }
+@media all and (max-width: 767px) {
+    #section2 > h1 {
+        font-size: 2em; } }
+@media all and (max-width: 375px) {
+    #section2 > h1 {
+        font-size: 1em; } }
 
 .menu2 {
     margin: -235px 0 0 195px;
