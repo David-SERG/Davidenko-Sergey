@@ -172,7 +172,10 @@ h1 {
 
 .tomato {
     margin-top: 100px;
-    margin-left: 60%;
+    margin-left: 49%;
+    width: 100%;
+    max-width: 450px;
+    min-width: 100px;
 }
 
 #section2 > h1 {
