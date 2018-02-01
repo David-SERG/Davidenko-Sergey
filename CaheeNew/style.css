@@ -69,7 +69,7 @@ max-width: 150px;
         width: 40%; } }
 @media all and (max-width: 375px) {
     .nav li {
-        width: 60% } }
+        width: 21% } }
 
 .nav a:hover {
     border-top: 5px solid #ff6033;
