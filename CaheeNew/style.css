@@ -16,7 +16,7 @@ a, a:hover {
 
 .wraper {
 
-    min-height: 100vh;
+    height: 100%;
     background: url("image/img.jpg") no-repeat center;
     background-size: cover;
 
@@ -100,6 +100,9 @@ h2 {
     color: #262626;
     margin-bottom: 25px;
 }
+@media all and (max-width: 1072px) {
+    h2 {
+        font-size: 40px; } }
 @media all and (max-width: 767px) {
    h2 {
         font-size: 2em; } }
