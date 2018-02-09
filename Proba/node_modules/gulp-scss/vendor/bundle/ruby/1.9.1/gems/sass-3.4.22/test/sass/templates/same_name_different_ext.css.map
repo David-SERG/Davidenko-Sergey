@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EAAC,GAAG,EAAE,IAAI",
+"sources": ["same_name_different_ext.scss"],
+"names": [],
+"file": "same_name_different_ext.css"
+}
