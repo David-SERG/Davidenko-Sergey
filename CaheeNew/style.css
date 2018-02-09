@@ -16,7 +16,7 @@ a, a:hover {
 
 .wraper {
 
-    height: 100%;
+    min-height: 100%;
     background: url("image/img.jpg") no-repeat center;
     background-size: cover;
 
