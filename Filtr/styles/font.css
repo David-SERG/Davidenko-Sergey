@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Geometria';
+    src: url('../font/Geometria.woff2') format('woff2'),
+    url('../font/Geometria.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'GeometriaBold';
+    src: url('../font/GeometriaBold.woff2') format('woff2'),
+    url('../font/GeometriaBold.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'GeometriaExtaBlack';
+
+    src: url('../font/GeometriaExtaBlack.woff2') format('woff2'),
+    url('../font/GeometriaExtaBlack.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GeometriaLight';
+    src: url('../font/GeometriaLight.woff2') format('woff2'),
+    url('../font/GeometriaLight.woff') format('woff');
+
+}
