@@ -545,9 +545,7 @@ nav {
     letter-spacing: .12px;
     color: #5d6870;
     margin-bottom: 50px;
-    @media all and (max-width: 525px) {
-      font: 6px $GeometriaLight;
-    }
+
   }
   .cart {
     width: 94%;
