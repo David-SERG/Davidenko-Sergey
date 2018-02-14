@@ -59,7 +59,9 @@
             ]
 
         });
+
     });
+
 })(jQuery);
 
 function initMap() {
@@ -95,4 +97,3 @@ function initMap() {
     marker.addListener('click', toggleBounce);
      google.maps.event.addDomListener(window, 'load', toggleBounce);
 }
-

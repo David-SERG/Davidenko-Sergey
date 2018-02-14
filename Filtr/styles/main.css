@@ -514,6 +514,9 @@ nav {
     letter-spacing: .12px;
     color: #5d6870;
     margin-bottom: 50px; }
+    @media all and (max-width: 525px) {
+      .advantage p {
+        font: 6px GeometriaLight, Arial, sans-serif; } }
   .advantage .cart {
     width: 94%;
     margin: 0 auto; }
