@@ -693,7 +693,7 @@ textarea::-webkit-input-placeholder {
 
 #Go_Top {
   position: fixed;
-  bottom: 48px;
+  bottom: 160px;
   right: 8.0625%;
   cursor: pointer;
   display: none;
