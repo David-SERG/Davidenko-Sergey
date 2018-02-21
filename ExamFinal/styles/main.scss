@@ -56,16 +56,45 @@ header {
     font: 400 italic 1.88em $proximaNovabold;
   }
 }
+@media all and (max-width: 1281px) {
+  header {
+    #navbarNav {
+      ul {
 
+        li {
+          padding: 7px;
+          margin-left: 76%;
+          border: 1px solid #fff;
+          border-radius: 23px;
+          text-align: center;
+
+        }
+      }
+    }
+  }
+}
 @media all and (max-width: 1026px) {
   header {
     .navbar {
       #navbarNav {
         margin: 4.112% 0 0 18.562%;
+        ul {
+
+          li {
+            padding: 7px;
+            margin-left: 76%;
+            border: 1px solid #fff;
+            border-radius: 23px;
+            text-align: center;
+
+          }
+        }
       }
     }
   }
 }
+
+
 
 @media all and (max-width: 769px) {
   header {
@@ -197,12 +226,12 @@ header {
     .par1 {
       left: 21%;
       top: 31%;
-      font-size:.93em ;
+      font-size: 1em;
     }
     .par2 {
       left: 21%;
       top: 47%;
-      font-size:.93em ;
+      font-size: 1em;
     }
     .buttonAbout {
       top: 68%;
@@ -224,13 +253,13 @@ header {
     .par1 {
       left: 6%;
       top: 31%;
-      font: 400 .9em $PTSans;
+      font: 400 1em $PTSans;
 
     }
     .par2 {
       left: 6%;
       top: 41%;
-      font: 400 .9em $PTSans;
+      font: 400 1em $PTSans;
     }
     .buttonAbout {
       top: 60%;
@@ -841,6 +870,7 @@ footer {
     p {
       top: 20px;
       left: 7.812%;
+      font: 400 .9em $PTSans;
     }
     ul {
       display: inline-block;

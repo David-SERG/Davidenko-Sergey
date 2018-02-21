@@ -39,9 +39,22 @@ header {
     color: #ffffff;
     font: 400 italic 1.88em "proxima_novabold", Arial sans-serif; }
 
+@media all and (max-width: 1281px) {
+  header #navbarNav ul li {
+    padding: 7px;
+    margin-left: 76%;
+    border: 1px solid #fff;
+    border-radius: 23px;
+    text-align: center; } }
 @media all and (max-width: 1026px) {
   header .navbar #navbarNav {
-    margin: 4.112% 0 0 18.562%; } }
+    margin: 4.112% 0 0 18.562%; }
+    header .navbar #navbarNav ul li {
+      padding: 7px;
+      margin-left: 76%;
+      border: 1px solid #fff;
+      border-radius: 23px;
+      text-align: center; } }
 @media all and (max-width: 769px) {
   header #navbarNav ul li {
     padding: 7px;
@@ -133,11 +146,11 @@ header {
   .about .par1 {
     left: 21%;
     top: 31%;
-    font-size: 0.93em; }
+    font-size: 1em; }
   .about .par2 {
     left: 21%;
     top: 47%;
-    font-size: 0.93em; }
+    font-size: 1em; }
   .about .buttonAbout {
     top: 68%;
     right: 41%; } }
@@ -150,11 +163,11 @@ header {
   .about .par1 {
     left: 6%;
     top: 31%;
-    font: 400 0.9em "PT Sans", Arial, sans-serif; }
+    font: 400 1em "PT Sans", Arial, sans-serif; }
   .about .par2 {
     left: 6%;
     top: 41%;
-    font: 400 0.9em "PT Sans", Arial, sans-serif; }
+    font: 400 1em "PT Sans", Arial, sans-serif; }
   .about .buttonAbout {
     top: 60%;
     right: 35%; } }
@@ -668,7 +681,8 @@ footer {
 @media (max-width: 426px) {
   footer p {
     top: 20px;
-    left: 7.812%; }
+    left: 7.812%;
+    font: 400 0.9em "PT Sans", Arial, sans-serif; }
   footer ul {
     display: inline-block;
     text-decoration: none;
