@@ -369,7 +369,6 @@ header {
 @media (max-width: 1026px) {
   .grid .container .row .colon {
     border: 3px solid #ffffff;
-    margin: 0 auto;
     height: 500px;
     margin-top: 1px;
 
@@ -689,92 +688,104 @@ header {
 .mapsForm {
   position: relative;
   padding: 1px;
+  background-color: #9f9acf;
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+
   #map {
-    height: 900px;
-    width: 100%;
-    position: absolute;
-    z-index: 0;
-  }
-  #contactform {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    background: rgb(200, 196, 218);
-    height: 900px;
-    opacity: .9;
+    height: 100%;
+    opacity: .4;
     padding: 1px;
-    .slide_panel_wrap {
-      margin: 220px 0 0 0;
-      width: 500px;
-      position: relative;
-      overflow: hidden;
-      .slide_panel {
-        margin-left: -201px;
-        padding: 0;
-        width: 206px;
-        position: relative;
-        top: 0;
-        left: 0;
-        border: 1px solid #dad8e3;
-        background: #dad8e3;
-        color: #665f60;
-        font: 400 1.125em $PTSans;
 
-        .open {
-          position: absolute;
-          top: 0;
-          left: 198px;
-          cursor: pointer;
-          outline: none;
-        }
-      }
-    }
-    .slide_panel_wrap2 {
-      margin: 1px 0 0 0;
-      width: 500px;
-      position: relative;
-      overflow: hidden;
-      .slide_panel-2 {
-        margin-left: -201px;
-        padding: 0;
-        width: 206px;
-        position: relative;
-        top: 0;
-        left: 0;
-        border: 1px solid #dad8e3;
-        background: #dad8e3;
-        color: #665f60;
-        font: 400 1.125em $PTSans;
-
-        .opens {
-          position: absolute;
-          top: 0;
-          left: 200px;
-          cursor: pointer;
-          outline: none;
-        }
-      }
-    }
   }
 
-  .logoMaps {
+  .slide_panel_wrap {
+    margin: 0;
+    width: 206px;
     position: absolute;
-    top: 55px;
-    left: 48.875%;
-    display: inline-block;
-    z-index: 4;
-  }
+    //overflow: hidden;
+    z-index: 3333333;
+    height: 500px;
+    right: -200px;
+    .slide_panel {
+      margin-right: -201px;
+      padding: 0;
+      width: 206px;
+      position: relative;
+      top: 0;
+      right: 0;
 
-  h2 {
+      z-index: 53;
+      .data{
+        text-align: center;
+        margin: 0;
+        border: 1px solid #dad8e3;
+        background: #dad8e3;
+        color: #665f60;
+        font: 400 1.125em $PTSans;
+        position: absolute;
+        top:109px;
+        width: 230px;
+      }
+
+      .open {
+        position: absolute;
+        top: 109px;
+        right: 206px;
+        cursor: pointer;
+        outline: none;
+        height: 70px;
+      }
+    }
+  }
+  .slide_panel_wrap2 {
+    margin: -788px 0 0 0;
+    width: 500px;
+    position: relative;
+    overflow: hidden;
+    .slide_panel-2 {
+      margin-right: -201px;
+      padding: 0;
+      width: 206px;
+      position: relative;
+      top: 0;
+      left: 0;
+      border: 1px solid #dad8e3;
+      background: #dad8e3;
+      color: #665f60;
+      font: 400 1.125em $PTSans;
+
+      .opens {
+        position: absolute;
+        top: 120px;
+        right: 200px;
+        cursor: pointer;
+        outline: none;
+      }
+    }
+  }
+}
+
+form {
+  width: 756px;
+  height: 290px;
+  margin: 45px 0 0 22.187%;
+  opacity: 10;
+  padding: 1px;
+  .logoMaps{
+position: absolute;
+    top:55px;
+    left: 48%;
+  }
+  h2{
+    color: #FFFFFF;
     font: 2.25em $proximaNovabold;
-    color: #ffffff;
-    z-index: 3;
+    text-align: center;
     position: absolute;
     top: 140px;
-    left: 41.312%;
-
+    left: 40.375%;
   }
-
   input {
     width: 25.937%;
     height: 56px;
@@ -810,28 +821,27 @@ header {
     outline: none;
 
   }
+}
 
-  .message {
-    width: 18.25%;
-    height: 67px;
-    color: #ffffff;
-    font: 1.25em $proximaNovabold;
-    text-transform: uppercase;
-    text-align: center;
-    border: 1px solid #9f9acf;
-    border-radius: 5px;
-    background: #9f9acf;
-    box-shadow: 0 10px 6px -6px #8783b0;
-    outline: none;
-    cursor: pointer;
-    position: absolute;
-    top: 775px;
-    left: 40.875%;
-    &:hover {
-      background: #928DC1;
-    }
+.message {
+  width: 18.25%;
+  height: 67px;
+  color: #ffffff;
+  font: 1.25em $proximaNovabold;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #9f9acf;
+  border-radius: 5px;
+  background: #9f9acf;
+  box-shadow: 0 10px 6px -6px #8783b0;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  top: 775px;
+  left: 40.875%;
+  &:hover {
+    background: #928DC1;
   }
-
 }
 
 @media (max-width: 1280px) {
@@ -885,7 +895,7 @@ textarea::-webkit-input-placeholder {
 
 #Go_Top {
   position: fixed;
-  bottom: 160px;
+  bottom: 46px;
   right: 8.0625%;
   cursor: pointer;
   display: none;

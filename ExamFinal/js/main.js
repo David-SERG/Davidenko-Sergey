@@ -76,29 +76,29 @@
     }
     $("#Go_Top").scrollToTop();
 
-    $(document).ready(function () {
+
         $(".open").on('click', function () {
-            $(".slide_panel").animate({left: '201px'}, 500);
+            $(".slide_panel").animate({right: '201px'}, 500);
             $(".open").on('click', function () {
-                $(".slide_panel").animate({left: '0'}, 500);
+                $(".slide_panel").animate({right: '0'}, 500);
             });
 
-        });
-        $(document).ready(function () {
+
+
             $(".opens").on('click', function () {
-                $(".slide_panel-2").animate({left: '201px'}, 500);
+                $(".slide_panel-2").animate({right: '201px'}, 500);
                 $(".opens").on('click', function () {
-                    $(".slide_panel-2").animate({left: '0'}, 500);
+                    $(".slide_panel-2").animate({right: '0'}, 500);
                 });
             });
         });
-    });
+
 
 })(jQuery);
 
 
 function initMap() {
-    var uluru = {lat: 48.380101, lng: 32.1878282};
+    var uluru = {lat: 62.4366969, lng: -8.5160027};
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 4,
         center: uluru
