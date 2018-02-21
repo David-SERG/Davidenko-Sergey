@@ -121,7 +121,8 @@ header {
     font: 400 italic 1.25em "PT Sans", Arial, sans-serif;
     background: #ebebeb;
     border: 1px solid #7d7a7c;
-    cursor: pointer; }
+    cursor: pointer;
+    margin: 1px; }
     .about button:hover {
       background: #DBDBDB; }
 
@@ -131,10 +132,12 @@ header {
     margin: 22px 0 0 30%; }
   .about .par1 {
     left: 21%;
-    top: 31%; }
+    top: 31%;
+    font-size: 0.93em; }
   .about .par2 {
     left: 21%;
-    top: 47%; }
+    top: 47%;
+    font-size: 0.93em; }
   .about .buttonAbout {
     top: 68%;
     right: 41%; } }
@@ -147,11 +150,11 @@ header {
   .about .par1 {
     left: 6%;
     top: 31%;
-    font: 400 1em "PT Sans", Arial, sans-serif; }
+    font: 400 0.9em "PT Sans", Arial, sans-serif; }
   .about .par2 {
     left: 6%;
     top: 41%;
-    font: 400 1em "PT Sans", Arial, sans-serif; }
+    font: 400 em "PT Sans", Arial, sans-serif; }
   .about .buttonAbout {
     top: 60%;
     right: 35%; } }

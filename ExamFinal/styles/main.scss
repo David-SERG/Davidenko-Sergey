@@ -181,6 +181,7 @@ header {
     background: #ebebeb;
     border: 1px solid #7d7a7c;
     cursor: pointer;
+    margin: 1px;
     &:hover {
       background: #DBDBDB;
     }
@@ -196,10 +197,12 @@ header {
     .par1 {
       left: 21%;
       top: 31%;
+      font-size:.93em ;
     }
     .par2 {
       left: 21%;
       top: 47%;
+      font-size:.93em ;
     }
     .buttonAbout {
       top: 68%;
@@ -221,13 +224,13 @@ header {
     .par1 {
       left: 6%;
       top: 31%;
-      font: 400 1em $PTSans;
+      font: 400 .9em $PTSans;
 
     }
     .par2 {
       left: 6%;
       top: 41%;
-      font: 400 1em $PTSans;
+      font: 400 .9em $PTSans;
     }
     .buttonAbout {
       top: 60%;
