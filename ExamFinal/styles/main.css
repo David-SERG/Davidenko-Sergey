@@ -662,10 +662,26 @@ header {
     .mapsForm .message:hover {
       background: #928DC1; }
 
+@media (max-width: 1280px) {
+  .slide_panel_wrap .slide_panel {
+    font: 400 0.5em "PT Sans", Arial, sans-serif; } }
 @media all and (max-width: 426px) {
-  .mapsForm #contactform .message {
-    width: 42.25%;
-    left: 27.875%; } }
+  .slide_panel_wrap2 .slide_panel-2 {
+    font: 400 0.5em "PT Sans", Arial, sans-serif; } }
+@media all and (max-width: 1026px) {
+  footer p {
+    top: 79px;
+    left: 7.812%;
+    font: 400 0.9em "PT Sans", Arial, sans-serif; }
+  footer ul {
+    display: inline-block;
+    text-decoration: none;
+    margin: 77px 0 0 50.812%;
+    padding: 0; }
+    footer ul li {
+      display: inline-block;
+      text-decoration: none;
+      margin-left: 10px; } }
 input::-webkit-input-placeholder {
   color: #ffffff; }
 
