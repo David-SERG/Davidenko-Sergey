@@ -69,7 +69,7 @@ header {
 .about {
   background: #ebebeb;
   width: 100%;
-  min-height: 799px;
+  min-height: 1000px;
   position: relative;
   padding: 1px; }
   .about .aboutUs {
@@ -154,7 +154,7 @@ header {
   .about .par2 {
     left: 6%;
     top: 41%;
-    font: 400 em "PT Sans", Arial, sans-serif; }
+    font: 400 0.9em "PT Sans", Arial, sans-serif; }
   .about .buttonAbout {
     top: 60%;
     right: 35%; } }
@@ -233,7 +233,9 @@ header {
 @media (max-width: 1026px) {
   .grid .container .row .colon {
     border: 3px solid #ffffff;
-    margin: 0 auto; }
+    margin: 0 auto;
+    height: 500px;
+    margin-top: 1px; }
     .grid .container .row .colon img {
       margin-left: 46%; }
     .grid .container .row .colon h4 {
@@ -629,7 +631,7 @@ footer {
   footer p {
     margin: 10px 0 0 10px;
     color: #ffffff;
-    font: 400 18px "PT Sans", Arial, sans-serif;
+    font: 400 1.125em "PT Sans", Arial, sans-serif;
     position: absolute;
     top: 79px;
     left: 15.812%; }
