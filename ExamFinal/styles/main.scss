@@ -701,7 +701,7 @@ header {
   }
 
   .slide_panel_wrap {
-    margin: 0;
+    margin: -788px 0 0 0;
     width: 206px;
     position: absolute;
     //overflow: hidden;
@@ -715,9 +715,8 @@ header {
       position: relative;
       top: 0;
       right: 0;
-
       z-index: 53;
-      .data{
+      .data {
         text-align: center;
         margin: 0;
         border: 1px solid #dad8e3;
@@ -725,7 +724,7 @@ header {
         color: #665f60;
         font: 400 1.125em $PTSans;
         position: absolute;
-        top:109px;
+        top: 109px;
         width: 230px;
       }
 
@@ -740,28 +739,38 @@ header {
     }
   }
   .slide_panel_wrap2 {
-    margin: -788px 0 0 0;
-    width: 500px;
-    position: relative;
-    overflow: hidden;
+    width: 206px;
+    position: absolute;
+    //overflow: hidden;
+    z-index: 3333333;
+    height: 500px;
+    right: -200px;
     .slide_panel-2 {
       margin-right: -201px;
       padding: 0;
       width: 206px;
       position: relative;
       top: 0;
-      left: 0;
-      border: 1px solid #dad8e3;
-      background: #dad8e3;
-      color: #665f60;
-      font: 400 1.125em $PTSans;
-
+      right: 0;
+      z-index: 53;
+      .data {
+        text-align: center;
+        margin: 0;
+        border: 1px solid #dad8e3;
+        background: #dad8e3;
+        color: #665f60;
+        font: 400 1.125em $PTSans;
+        position: absolute;
+        top: -607px;
+        width: 230px;
+      }
       .opens {
         position: absolute;
-        top: 120px;
-        right: 200px;
+        top: -607px;
+        right: 206px;
         cursor: pointer;
         outline: none;
+        height: 70px;
       }
     }
   }
@@ -773,12 +782,12 @@ form {
   margin: 45px 0 0 22.187%;
   opacity: 10;
   padding: 1px;
-  .logoMaps{
-position: absolute;
-    top:55px;
+  .logoMaps {
+    position: absolute;
+    top: 55px;
     left: 48%;
   }
-  h2{
+  h2 {
     color: #FFFFFF;
     font: 2.25em $proximaNovabold;
     text-align: center;

@@ -553,7 +553,7 @@ header {
     opacity: .4;
     padding: 1px; }
   .mapsForm .slide_panel_wrap {
-    margin: 0;
+    margin: -788px 0 0 0;
     width: 206px;
     position: absolute;
     z-index: 3333333;
@@ -585,27 +585,36 @@ header {
         outline: none;
         height: 70px; }
   .mapsForm .slide_panel_wrap2 {
-    margin: -788px 0 0 0;
-    width: 500px;
-    position: relative;
-    overflow: hidden; }
+    width: 206px;
+    position: absolute;
+    z-index: 3333333;
+    height: 500px;
+    right: -200px; }
     .mapsForm .slide_panel_wrap2 .slide_panel-2 {
       margin-right: -201px;
       padding: 0;
       width: 206px;
       position: relative;
       top: 0;
-      left: 0;
-      border: 1px solid #dad8e3;
-      background: #dad8e3;
-      color: #665f60;
-      font: 400 1.125em "PT Sans", Arial, sans-serif; }
+      right: 0;
+      z-index: 53; }
+      .mapsForm .slide_panel_wrap2 .slide_panel-2 .data {
+        text-align: center;
+        margin: 0;
+        border: 1px solid #dad8e3;
+        background: #dad8e3;
+        color: #665f60;
+        font: 400 1.125em "PT Sans", Arial, sans-serif;
+        position: absolute;
+        top: -607px;
+        width: 230px; }
       .mapsForm .slide_panel_wrap2 .slide_panel-2 .opens {
         position: absolute;
-        top: 120px;
-        right: 200px;
+        top: -607px;
+        right: 206px;
         cursor: pointer;
-        outline: none; }
+        outline: none;
+        height: 70px; }
 
 form {
   width: 756px;
