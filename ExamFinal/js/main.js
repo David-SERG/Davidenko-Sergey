@@ -1,4 +1,4 @@
-; (function ($) {
+;(function ($) {
     $('.sliders').slick({
         dots: true,
         arrows: true,
@@ -16,13 +16,13 @@
         ]
     });
 
-    $(document).ready(function(){
+    $(document).ready(function () {
         $('.sliderTeam').slick({
             slidesToShow: 3,
             slidesToScroll: 3,
             centerPadding: '60px',
             prevArrow: '.pre',
-            nextArrow:'.nex',
+            nextArrow: '.nex',
             responsive: [
                 {
                     breakpoint: 1025,
@@ -54,30 +54,47 @@
                         centerMode: true,
                         centerPadding: '5px',
                         slidesToShow: 1,
-                        arrow:false
+                        arrow: false
                     }
                 }
             ]
-    });
+        });
     });
 
 
-    $.fn.scrollToTop = function() {
+    $.fn.scrollToTop = function () {
         $(this).hide().removeAttr("href");
         if ($(window).scrollTop() >= "250") $(this).fadeIn("slow")
         var scrollDiv = $(this);
-        $(window).scroll(function() {
+        $(window).scroll(function () {
             if ($(window).scrollTop() <= "250") $(scrollDiv).fadeOut("slow")
             else $(scrollDiv).fadeIn("slow")
         });
-        $(this).click(function() {
+        $(this).click(function () {
             $("html, body").animate({scrollTop: 0}, "slow")
         })
     }
     $("#Go_Top").scrollToTop();
 
+    $(document).ready(function () {
+        $(".open").on('click', function () {
+            $(".slide_panel").animate({left: '201px'}, 500);
+            $(".open").on('click', function () {
+                $(".slide_panel").animate({left: '0'}, 500);
+            });
 
-}) (jQuery);
+        });
+        $(document).ready(function () {
+            $(".opens").on('click', function () {
+                $(".slide_panel-2").animate({left: '201px'}, 500);
+                $(".opens").on('click', function () {
+                    $(".slide_panel-2").animate({left: '0'}, 500);
+                });
+            });
+        });
+    });
+
+})(jQuery);
 
 
 function initMap() {

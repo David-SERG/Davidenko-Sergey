@@ -56,6 +56,7 @@ header {
     font: 400 italic 1.88em $proximaNovabold;
   }
 }
+
 @media all and (max-width: 1281px) {
   header {
     #navbarNav {
@@ -73,6 +74,7 @@ header {
     }
   }
 }
+
 @media all and (max-width: 1026px) {
   header {
     .navbar {
@@ -93,8 +95,6 @@ header {
     }
   }
 }
-
-
 
 @media all and (max-width: 769px) {
   header {
@@ -702,76 +702,139 @@ header {
     background: rgb(200, 196, 218);
     height: 900px;
     opacity: .9;
-    .logoMaps {
-      text-align: center;
-      display: inline-block;
-      margin: 55px 0 25px 48.562%;
-      z-index: 4;
-    }
-    h2 {
-      text-align: center;
-      font: 2.25em $proximaNovabold;
-      color: #ffffff;
-      z-index: 3;
+    padding: 1px;
+    .slide_panel_wrap {
+      margin: 220px 0 0 0;
+      width: 500px;
+      position: relative;
+      overflow: hidden;
+      .slide_panel {
+        margin-left: -201px;
+        padding: 0;
+        width: 206px;
+        position: relative;
+        top: 0;
+        left: 0;
+        border: 1px solid #dad8e3;
+        background: #dad8e3;
+        color: #665f60;
+        font: 400 1.125em $PTSans;
 
-    }
-
-    input {
-      width: 25.937%;
-      height: 56px;
-      border: 1px solid #d8d6e0;
-      border-radius: 5px;
-      outline: none;
-      font: 400 italic 1.125em $PTSans;
-      color: black;
-      position: absolute;
-      top: 437px;
-      left: 23.125%;
-      background: #d8d6e0;
-
-    }
-    #email {
-      position: absolute;
-      top: 437px;
-      left: 50.937%;
-    }
-    textarea {
-      position: absolute;
-      width: 53.75%;
-      height: 200px;
-      border: 1px solid #d8d6e0;
-      border-radius: 5px;
-      font: 400 italic 1.125em $PTSans;
-      color: black;
-      top: 522px;
-      left: 23.125%;
-      background: #d8d6e0;
-      outline: none;
-
-    }
-    .message {
-      width: 18.25%;
-      height: 67px;
-      color: #ffffff;
-      font: 1.25em $proximaNovabold;
-      text-transform: uppercase;
-      text-align: center;
-      border: 1px solid #9f9acf;
-      border-radius: 5px;
-      background: #9f9acf;
-      box-shadow: 0 10px 6px -6px #8783b0;
-      outline: none;
-      cursor: pointer;
-      position: absolute;
-      top: 775px;
-      left: 40.875%;
-      &:hover {
-        background: #928DC1;
+        .open {
+          position: absolute;
+          top: 0;
+          left: 198px;
+          cursor: pointer;
+          outline: none;
+        }
       }
     }
+    .slide_panel_wrap2 {
+      margin: 1px 0 0 0;
+      width: 500px;
+      position: relative;
+      overflow: hidden;
+      .slide_panel-2 {
+        margin-left: -201px;
+        padding: 0;
+        width: 206px;
+        position: relative;
+        top: 0;
+        left: 0;
+        border: 1px solid #dad8e3;
+        background: #dad8e3;
+        color: #665f60;
+        font: 400 1.125em $PTSans;
+
+        .opens {
+          position: absolute;
+          top: 0;
+          left: 200px;
+          cursor: pointer;
+          outline: none;
+        }
+      }
+    }
+  }
+
+  .logoMaps {
+    position: absolute;
+    top: 55px;
+    left: 48.875%;
+    display: inline-block;
+    z-index: 4;
+  }
+
+  h2 {
+    font: 2.25em $proximaNovabold;
+    color: #ffffff;
+    z-index: 3;
+    position: absolute;
+    top: 140px;
+    left: 41.312%;
 
   }
+
+  input {
+    width: 25.937%;
+    height: 56px;
+    border: 1px solid #d8d6e0;
+    border-radius: 5px;
+    outline: none;
+    font: 400 italic 1.125em $PTSans;
+    color: black;
+    position: absolute;
+    top: 437px;
+    left: 23.125%;
+    background: #d8d6e0;
+
+  }
+
+  #email {
+    position: absolute;
+    top: 437px;
+    left: 50.937%;
+  }
+
+  textarea {
+    position: absolute;
+    width: 53.75%;
+    height: 200px;
+    border: 1px solid #d8d6e0;
+    border-radius: 5px;
+    font: 400 italic 1.125em $PTSans;
+    color: black;
+    top: 522px;
+    left: 23.125%;
+    background: #d8d6e0;
+    outline: none;
+
+  }
+
+  .message {
+    width: 18.25%;
+    height: 67px;
+    color: #ffffff;
+    font: 1.25em $proximaNovabold;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #9f9acf;
+    border-radius: 5px;
+    background: #9f9acf;
+    box-shadow: 0 10px 6px -6px #8783b0;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 775px;
+    left: 40.875%;
+    &:hover {
+      background: #928DC1;
+    }
+  }
+
 }
+
+
 
 @media all and (max-width: 426px) {
   .mapsForm {
@@ -850,6 +913,7 @@ footer {
     p {
       top: 79px;
       left: 7.812%;
+      font: 400 .9em $PTSans;
     }
     ul {
       display: inline-block;
@@ -885,4 +949,7 @@ footer {
     }
   }
 }
+
+
+
 

@@ -556,63 +556,111 @@ header {
     width: 100%;
     background: #c8c4da;
     height: 900px;
-    opacity: .9; }
-    .mapsForm #contactform .logoMaps {
-      text-align: center;
-      display: inline-block;
-      margin: 55px 0 25px 48.562%;
-      z-index: 4; }
-    .mapsForm #contactform h2 {
-      text-align: center;
-      font: 2.25em "proxima_novabold", Arial sans-serif;
-      color: #ffffff;
-      z-index: 3; }
-    .mapsForm #contactform input {
-      width: 25.937%;
-      height: 56px;
-      border: 1px solid #d8d6e0;
-      border-radius: 5px;
-      outline: none;
-      font: 400 italic 1.125em "PT Sans", Arial, sans-serif;
-      color: black;
-      position: absolute;
-      top: 437px;
-      left: 23.125%;
-      background: #d8d6e0; }
-    .mapsForm #contactform #email {
-      position: absolute;
-      top: 437px;
-      left: 50.937%; }
-    .mapsForm #contactform textarea {
-      position: absolute;
-      width: 53.75%;
-      height: 200px;
-      border: 1px solid #d8d6e0;
-      border-radius: 5px;
-      font: 400 italic 1.125em "PT Sans", Arial, sans-serif;
-      color: black;
-      top: 522px;
-      left: 23.125%;
-      background: #d8d6e0;
-      outline: none; }
-    .mapsForm #contactform .message {
-      width: 18.25%;
-      height: 67px;
-      color: #ffffff;
-      font: 1.25em "proxima_novabold", Arial sans-serif;
-      text-transform: uppercase;
-      text-align: center;
-      border: 1px solid #9f9acf;
-      border-radius: 5px;
-      background: #9f9acf;
-      box-shadow: 0 10px 6px -6px #8783b0;
-      outline: none;
-      cursor: pointer;
-      position: absolute;
-      top: 775px;
-      left: 40.875%; }
-      .mapsForm #contactform .message:hover {
-        background: #928DC1; }
+    opacity: .9;
+    padding: 1px; }
+    .mapsForm #contactform .slide_panel_wrap {
+      margin: 220px 0 0 0;
+      width: 500px;
+      position: relative;
+      overflow: hidden; }
+      .mapsForm #contactform .slide_panel_wrap .slide_panel {
+        margin-left: -201px;
+        padding: 0;
+        width: 206px;
+        position: relative;
+        top: 0;
+        left: 0;
+        border: 1px solid #dad8e3;
+        background: #dad8e3;
+        color: #665f60;
+        font: 400 1.125em "PT Sans", Arial, sans-serif; }
+        .mapsForm #contactform .slide_panel_wrap .slide_panel .open {
+          position: absolute;
+          top: 0;
+          left: 198px;
+          cursor: pointer;
+          outline: none; }
+    .mapsForm #contactform .slide_panel_wrap2 {
+      margin: 1px 0 0 0;
+      width: 500px;
+      position: relative;
+      overflow: hidden; }
+      .mapsForm #contactform .slide_panel_wrap2 .slide_panel-2 {
+        margin-left: -201px;
+        padding: 0;
+        width: 206px;
+        position: relative;
+        top: 0;
+        left: 0;
+        border: 1px solid #dad8e3;
+        background: #dad8e3;
+        color: #665f60;
+        font: 400 1.125em "PT Sans", Arial, sans-serif; }
+        .mapsForm #contactform .slide_panel_wrap2 .slide_panel-2 .opens {
+          position: absolute;
+          top: 0;
+          left: 200px;
+          cursor: pointer;
+          outline: none; }
+  .mapsForm .logoMaps {
+    position: absolute;
+    top: 55px;
+    left: 48.875%;
+    display: inline-block;
+    z-index: 4; }
+  .mapsForm h2 {
+    font: 2.25em "proxima_novabold", Arial sans-serif;
+    color: #ffffff;
+    z-index: 3;
+    position: absolute;
+    top: 140px;
+    left: 41.312%; }
+  .mapsForm input {
+    width: 25.937%;
+    height: 56px;
+    border: 1px solid #d8d6e0;
+    border-radius: 5px;
+    outline: none;
+    font: 400 italic 1.125em "PT Sans", Arial, sans-serif;
+    color: black;
+    position: absolute;
+    top: 437px;
+    left: 23.125%;
+    background: #d8d6e0; }
+  .mapsForm #email {
+    position: absolute;
+    top: 437px;
+    left: 50.937%; }
+  .mapsForm textarea {
+    position: absolute;
+    width: 53.75%;
+    height: 200px;
+    border: 1px solid #d8d6e0;
+    border-radius: 5px;
+    font: 400 italic 1.125em "PT Sans", Arial, sans-serif;
+    color: black;
+    top: 522px;
+    left: 23.125%;
+    background: #d8d6e0;
+    outline: none; }
+  .mapsForm .message {
+    width: 18.25%;
+    height: 67px;
+    color: #ffffff;
+    font: 1.25em "proxima_novabold", Arial sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #9f9acf;
+    border-radius: 5px;
+    background: #9f9acf;
+    box-shadow: 0 10px 6px -6px #8783b0;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 775px;
+    left: 40.875%; }
+    .mapsForm .message:hover {
+      background: #928DC1; }
 
 @media all and (max-width: 426px) {
   .mapsForm #contactform .message {
@@ -668,7 +716,8 @@ footer {
 @media all and (max-width: 1026px) {
   footer p {
     top: 79px;
-    left: 7.812%; }
+    left: 7.812%;
+    font: 400 0.9em "PT Sans", Arial, sans-serif; }
   footer ul {
     display: inline-block;
     text-decoration: none;
