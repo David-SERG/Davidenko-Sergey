@@ -83,15 +83,14 @@
             $(".slide_panel").animate({right: '0'}, 500);
         });
 
-
-        $(".opens").on('click', function () {
-            $(".slide_panel-2").animate({right: '201px'}, 500);
-            $(".opens").on('click', function () {
-                $(".slide_panel-2").animate({right: '0'}, 500);
-            });
-        });
     });
 
+    $(".opens").on('click', function () {
+        $(".slide_panel-2").animate({right: '201px'}, 500);
+        $(".opens").on('click', function () {
+            $(".slide_panel-2").animate({right: '0'}, 500);
+        });
+    });
 
 })(jQuery);
 
